@@ -1,0 +1,35 @@
+body { background: url(../images/movieposter.jpg);
+           background-size:110em;
+     }
+
+    .jumbotron {
+    	    margin-top:80px;
+    	    opacity:0.94;
+    	    background-color:#FEC503;
+    	    color:#fff;
+    } 
+
+    #startButton{
+    	max-width:50%;
+    	margin:20px auto;
+
+    }
+    #timer{
+    	text-align:center;
+    	font-family:'PT Sans';
+    	font-size:2em;
+    }
+    .question{
+    	font-family:'PT Sans';
+    	font-size:2.3em;
+    	color:#000;
+    }
+    .choices{
+    	font-family:'PT Sans';
+    	font-size:2em;
+
+    }
+    .choices:hover .choices:focus, .choices:active {
+    	  -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
